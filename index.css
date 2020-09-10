@@ -1,0 +1,15 @@
+.left-items {
+    display: inline-block;
+}
+
+.logo__text {
+    flex: 1;
+    color: #cc9543;
+    text-transform: uppercase;
+    font-family: "Nurse";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.6em;
+    display: inline-block;
+    padding-left: 0.9em;
+}
