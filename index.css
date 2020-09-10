@@ -1,15 +1,63 @@
-.left-items {
-    display: inline-block;
-}
-
-.logo__text {
-    flex: 1;
-    color: #cc9543;
-    text-transform: uppercase;
-    font-family: "Nurse";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    font-size: 1.6em;
-    display: inline-block;
-    padding-left: 0.9em;
-}
+            .main-header,
+            .items {
+                display: flex;
+            }
+            
+            .brand {
+                display: inline-block;
+                margin-left: 138px;
+            }
+            
+            .brand img {
+                height: 82px;
+            }
+            
+            .divider {
+                font-size: 1.5em;
+                line-height: 8px;
+                color: rgba(0, 0, 0, 0.5);
+            }
+            
+            .right-items {
+                margin-right: 75px;
+            }
+            
+            .right-items a {
+                font-size: 1rem;
+                font-weight: 700;
+                font-family: "Open Sans", sans-serif;
+                color: #4a4a4ab3;
+            }
+            
+            .items li {
+                list-style: none;
+            }
+            
+            .items li a {
+                padding: 0px 12px;
+            }
+            
+            .logo__text {
+                /* flex: 1; */
+                color: #cc9543;
+                text-transform: uppercase;
+                font-family: "Nurse";
+                letter-spacing: 0.4px;
+                font-weight: bold;
+                font-size: 1.6em;
+                display: inline-block;
+                padding-left: 0.9em;
+            }
+            
+            @media (min-width: 768px) {
+                .main-header-md {
+                    flex-flow: row nowrap;
+                    justify-content: flex-start;
+                }
+            }
+            
+            @media (min-width: 768px) {
+                .right-items {
+                    display: flex;
+                }
+            }
