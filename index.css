@@ -91,8 +91,9 @@
 }
 
 .your-career button {
-    color: white;
+    background-color: #6abfc3;
     cursor: pointer;
+    color: white;
     border-radius: 4px;
     /* margin-left: 450px; */
     padding: 1rem 3.5rem;
@@ -104,11 +105,10 @@
 
 .odin-image {
     margin-top: 112px;
-    /* vertical-align: center;
-    border-style: none;
-    max-width: 100%;
-    box-sizing: border-box;
-    display: block; */
+    margin-block-start: rem;
+    margin-block-end: 1em;
+    margin-inline-start: -0.8rem;
+    margin-inline-end: -0.9rem;
 }
 
 @media (max-width: 1199.98px) {
